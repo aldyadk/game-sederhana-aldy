@@ -1,0 +1,11 @@
+SIMPAN object1 'kamu' dengan 2 properti nama & umur
+SIMPAN object2 'ayahmu' dengan 2 properti nama & umur
+SIMPAN object3 'ibumu' dengan 2 properti nama & umur
+SIMPAN variabel 'arr' dengan nilai blank dan tipe data array
+PUSH ketiga object tersebut kedalam variable 'arr'
+SIMPAN variabel 'untung' dengan nilai nol (0)
+SIMPAN variabel 'rugi' dengan nilai nol (0)
+UNTUK iterasi i dari nol(0) sampai dengan jumlah element dalam array 'arr',
+SIMPAN variabel 'random' dengan nilai dari perkalian fungsi Math.random dengan angka 100
+JIKA nilai 'properti umur dalam iterasi ke-i' lebih besar dari nilai variabel 'random', tambahkan 1 pada nilai 'untung', JIKA kondisi lainnya maka tambahkan 1 pada nilai 'rugi'
+Setelah iterasi selesai, JIKA nilai 'untung'-'rugi' lebih besar dari nol, maka TAMPILKAN pesan tentang keberuntungan, JIKA kondisi lainnya maka TAMPILKAN pesan tentang kekurangberuntungan
